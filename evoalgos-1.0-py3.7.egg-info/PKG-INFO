@@ -1,0 +1,43 @@
+Metadata-Version: 1.1
+Name: evoalgos
+Version: 1.0
+Summary: Modular evolutionary algorithms
+Home-page: https://ls11-www.cs.tu-dortmund.de/people/swessing/evoalgos/doc/
+Author: Simon Wessing
+Author-email: simon.wessing@tu-dortmund.de
+License: BSD
+Description: Description
+        ===========
+        
+        This package contains the S-metric selection evolutionary multi-objective
+        optimization algorithm (SMS-EMOA) and the non-dominated sorting genetic
+        algorithm 2 (NSGA2) for multiobjective optimization. For single-objective
+        optimization, classical evolution strategies and the rather unknown CMSA-ES
+        (covariance matrix self-adaptation evolution strategy) are provided.
+        Variation for real-valued and binary search spaces is included and new
+        variation operators can be easily added thanks to the modular concept.
+        
+        The package is geared to work with optimization problems as defined in the
+        package optproblems. The whole package assumes minimization problems
+        throughout!
+        
+        Documentation
+        =============
+        
+        The documentation is located at
+        https://ls11-www.cs.tu-dortmund.de/people/swessing/evoalgos/doc/
+        
+Keywords: evolutionary optimization algorithm multiobjective EMOA MOEA SMS SBX NSGA2 hypervolume covariance self-adaptive evolution strategy nearest-better
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Requires: optproblems
+Requires: numpy
